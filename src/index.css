@@ -1,0 +1,65 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
+.panel{
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panelOne{
+  background: url("./images/Ellipse\ 135.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.panelTwo{
+  background: url("./images//Ellipse\ 136.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.panelThree{
+  background: url("./images/Rectangle\ 84.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+}
+
+.panelThree *{
+  color: white;
+}
+
+h1{
+  font-size: 300px;
+}
+
+nav{
+  display: flex;
+  gap: 10px;
+}
+
+.container{
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
